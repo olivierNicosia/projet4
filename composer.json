@@ -1,0 +1,11 @@
+{
+    "name": "nicosia/socle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ON",
+            "email": "olivier.nicosia@free.fr"
+        }
+    ],
+    "require": {}
+}
