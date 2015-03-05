@@ -1,1 +1,4 @@
+/.vagrant/
 /vendor/
+/nbproject/
+/src/public/assets/
