@@ -63,7 +63,8 @@ vagrantfile-local:
         host: detect
 server:
     install: '1'
-    packages: { 'git-core' }
+    packages:
+        - git-core
 users_groups:
     install: '1'
     groups: {  }
