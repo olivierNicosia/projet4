@@ -316,19 +316,74 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="footer1-col"><p>Nos vidéos</p></div>
+                <div class="footer1-col">
+                    <h2>Nos vidéos</h2>
+                        <div class="row ">
+                            <div class="col-md-12">
+                                    <a href="http://www.youtube.com/user/Boulanger">
+                                        <img src="/img/products/ft_yt.jpg" border="0">
+                                    </a>
+                                </div>
+                            </div>
+                        
+                    
+                </div>
             </div>
             <div class="col-md-3">
-                <div class="footer1-col"><p>Restez informés</p></div>    
+                <div class="footer1-col"><h2>Restez informés<h2>
+                        <h3>Promotions, nouveautés, ventes flash, conseils...</h3>
+                    <ul class="list-inline" id="contact-links">    
+                        <li id="mail"><a href="http://www.boulanger.fr/webapp/wcs/stores/servlet/ContentDisplayView?storeId=10001&catalogId=10001&cfxurl=bfr/inxmail/inxmail.htm&todo=inscr">> Par email</a>
+                        </li>
+                        <li id="sms"><a href="http://www.boulanger.fr/webapp/wcs/stores/servlet/ContentDisplayView?storeId=10001&catalogId=10001&cfxurl=bfr/inxmail/inxmail.htm&todo=inscr">> Par sms</a>
+                        </li>
+                    </ul>
+                </div>    
             </div>
             <div class="col-md-3">
-                <div class="footer1-col"><p>Nos applications</p></div>   
+                <div class="footer1-col"><h2>Nos applications</h2></div>   
             </div>
         </div>
+            <div class="col-md-12">
+            <ul class="cgv">
+		<li><a href="http://www.boulanger.fr/evenement/engagements.htm">Boulanger s'engage</a></li>
+                <li><a href="http://www.boulanger.fr/content/bfr/contact/faq/">Boulanger vous aide</a></li>
+                <li><a href="http://www.boulanger.fr/evenement/entreprise-boulanger.htm">L'entreprise Boulanger</a></li>
+                <li><a href="http://www.boulanger.fr/content/bfr/corporate/conditions-generales-vente">Conditions générales de ventes</a></li>
+                <li><a href="http://www.boulanger.fr/content/bfr/corporate/mentions_legales/mentions-legales.htm">Mentions légales</a></li>
+		<li class="end"><a href="http://magasins.boulanger.fr/">Nos magasins</a></li>
+            </ul>
+            </div>
+            <div class="col-md-12">
+                <ul class="creditCards">
+                    <li class="pay_1">Verified by VISA</li>
+                    <li class="pay_2">CB</li>
+                    <li class="pay_3">MasterCard</li>
+                    <li class="pay_4">VISA</li>
+                    <li class="pay_5">e. Bleue</li>
+                    <li class="pay_6">PayPal</li>
+                    <li class="pay_7">Carte b</li>
+                    <li class="pay_8">illicado</li>
+                    <li class="pay_9">Carte Boulanger</li>
+                    <li class="pay_10">Banque Accord</li>
+                    <li class="pay_11">Facily pay</li>
+                    <li class="pay_12">Fia-Net</li>
+                    <li class="pay_13">fevad</li>
+		</ul>
+            </div>
     </div>
 </div>
             <div class="row with-margin" id="footer2">
                 
+                    <!-- <a href="/evenement/livraison-express.htm">
+                    <img src="/content/static/bfr/_hp/refonte_2013/images/trophee.png" border="0">
+                         </a> 
+                    -->
+                    Boulanger, spécialiste du Multimédia et de l'électroménager
+
+
+
+</div>
             </div>
         </div>
         <script src="/assets/jquery/dist/jquery.min.js"></script>

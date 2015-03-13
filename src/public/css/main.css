@@ -506,10 +506,19 @@ a#my-basket {
 
 .footer1-col h2{
     margin: 0 0 6px 0;
-    padding-top: 6px;
+    padding-top: 9px;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
+}
+
+.footer1-col h3{
+    margin: 0 0 6px 0;
+    padding-top: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #F7941D
 }
 
 .footer1-col ul {
@@ -538,6 +547,33 @@ a#my-basket {
     margin-top: 20px;
 }
 
+.footer1-col li#sms, .footer1-col li#mail {
+    width: 70px;
+    height: 65px;
+    background: url('/img/products/contact.gif') scroll no-repeat top left;
+    background-position-x: 5px;
+}
+
+.footer1-col li#mail {
+    background-position-y: -64px;
+}
+
+
+#contact-links {
+    text-align: center;
+}
+
+#contact-links a {
+    position: relative;
+    top: 20px;
+}
+
+
+/*
+.footer1-col #contact {
+    background: url('/img/products/contact.gif') scroll no-repeat 20px 0px;
+}
+*/
 #footer1 p {
     display: block;
     height: 40px;
@@ -548,6 +584,84 @@ a#my-basket {
     font-family: 'Ropa Sans';
 }
 
+.cgv {
+	margin: 10px 40px 20px 0;
+	text-align: center
+}
+
+.cgv li {
+	display: inline-block;
+	padding-right: 20px;
+	border-right: solid 1px #969696;
+}
+.cgv li+li{
+	margin-left: 20px
+}
+.cgv li.end {
+	border: none;
+}
+.cgv a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.creditCards {
+	margin:auto;
+	padding:0 0 20px;
+	text-align: center;
+}
+.creditCards li {
+	display: inline-block;
+	width: 63px;
+	margin: 0 2px;
+	padding: 0;
+	background-image: url('/img/products/creditCards.jpg');
+	background-repeat: no-repeat;
+	text-indent: -5000px;
+	font-size: 0px;
+	height: 44px;
+}
+.creditCards li.pay_1 {
+	background-position: 0 0px;
+}
+.creditCards li.pay_2 {
+	background-position: 0 -44px;
+}
+.creditCards li.pay_3 {
+	background-position: 0 -88px;
+}
+.creditCards li.pay_4 {
+	background-position: 0 -132px;
+}
+.creditCards li.pay_5 {
+	background-position: 0 -176px;
+}
+.creditCards li.pay_6 {
+	background-position: 0 -220px;
+}
+.creditCards li.pay_7 {
+	background-position: 0 -264px;
+}
+.creditCards li.pay_8 {
+	background-position: 0 -308px;
+}
+.creditCards li.pay_9 {
+	background-position: 0 -352px;
+}
+.creditCards li.pay_10 {
+	background-position: 0 -396px;
+}
+.creditCards li.pay_11 {
+	background-position: 0 -440px;
+}
+.creditCards li.pay_12 {
+	background-position: 0 -484px;
+}
+.creditCards li.pay_13 {
+	background-position: 0 -528px;
+}
 .feature-inner {
     height: 250px;
     -moz-box-shadow: 0px 0px 10px 6px #cfcfcf;
@@ -556,12 +670,20 @@ a#my-basket {
     box-shadow: 0px 0px 10px 6px #cfcfcf;
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=NaN, Strength=10);
 }
+
 #footer2 {
     background-color: #FFF;
-    min-height: 60px;
+    min-height: 55px;
     margin-bottom: 20px;
     position: relative;
     left: -8px;
+    clear: both;
+    margin: auto;
+    width: 1000px;
+    height: 55px;
+    background: url('/img/products/ft_bottom.jpg') no-repeat center 50% #FFFFFF;
+    font-size: 0;
+    text-indent: -5000px;
 }
 .with-margin {
     max-width: 1000px;
