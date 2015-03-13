@@ -476,7 +476,7 @@ a#my-basket {
     color: #666;
 }
 
-.col-md-5 a{
+.footer-col1 .col-md-5 a{
     display: block;
     padding-top: 45px;
     font-size: 11px;
